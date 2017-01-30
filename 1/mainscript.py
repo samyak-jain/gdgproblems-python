@@ -24,7 +24,7 @@ for i in q1.find_next_siblings():
 	answers.append(requests.get("http://stackoverflow.com" + i("div", "result-link")[0].find("a")['href']))
 
 
-for j in range(len(answers)):
+for j in range(4):
 	xstr = ''
 	for i in BeautifulSoup(answers[j].text, 'html5lib').find('div', attrs={'id': 'answers'}).find('div', 'post-text').contents:
 		try:
