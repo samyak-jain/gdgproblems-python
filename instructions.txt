@@ -1,0 +1,2 @@
+Folders 1 and 3 contain the mainscript.py file which is the file that should be run. 
+I have used a virtualenv build into python 3. The modules can be accessed by running - 'source /bin/acitvate' at root folder or can be installed from the list given in modules.txt
